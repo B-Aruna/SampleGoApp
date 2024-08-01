@@ -10,6 +10,5 @@ jobs:
   build:
     steps:
       - name: Say hello
-        shell: sh
         run: |
           echo "hello world"
